@@ -22,9 +22,14 @@
   </div>
  <script src="index.js"></script>
 
-  <footer>
-    Made with ❤️ in pune.
-  </footer>
+ <footer>
+  Made with ❤️ in Pune. <br>
+  by Sumit Bagate | &copy; <span id="year"></span>
+</footer>
+<script>
+  // Get the current year and display it in the footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 
 </html>
